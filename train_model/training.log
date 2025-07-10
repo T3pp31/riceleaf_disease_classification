@@ -1,0 +1,121 @@
+wandb: Currently logged in as: ttyn4519 (ttyn4519-individual) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.21.0
+wandb: Run data is saved locally in /root/github/riceleaf_disease_classification/train_model/output/logs/wandb/run-20250710_233621-8lqbz2y8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run smart-jazz-5
+wandb: ⭐️ View project at https://wandb.ai/ttyn4519-individual/riceleaf-disease-classification
+wandb: 🚀 View run at https://wandb.ai/ttyn4519-individual/riceleaf-disease-classification/runs/8lqbz2y8
+Epoch 1/20:
+  Train Loss: 2.5390, Train Acc: 58.49%
+  Val Loss: 0.3039, Val Acc: 89.30%
+  Learning Rate: 0.000994
+  Best model saved to /root/github/riceleaf_disease_classification/train_model/output/models/smart-jazz-5-epoch1-acc89.30.pth with accuracy: 89.30%
+Epoch 2/20:
+  Train Loss: 1.9708, Train Acc: 66.72%
+  Val Loss: 0.1539, Val Acc: 95.03%
+  Learning Rate: 0.000976
+  Best model saved to /root/github/riceleaf_disease_classification/train_model/output/models/smart-jazz-5-epoch2-acc95.03.pth with accuracy: 95.03%
+Epoch 3/20:
+  Train Loss: 1.8241, Train Acc: 68.24%
+  Val Loss: 0.1174, Val Acc: 95.70%
+  Learning Rate: 0.000946
+  Best model saved to /root/github/riceleaf_disease_classification/train_model/output/models/smart-jazz-5-epoch3-acc95.70.pth with accuracy: 95.70%
+Epoch 4/20:
+  Train Loss: 1.7060, Train Acc: 69.38%
+  Val Loss: 0.1867, Val Acc: 93.43%
+  Learning Rate: 0.000905
+Epoch 5/20:
+  Train Loss: 1.6809, Train Acc: 68.64%
+  Val Loss: 0.1201, Val Acc: 96.04%
+  Learning Rate: 0.000854
+  Best model saved to /root/github/riceleaf_disease_classification/train_model/output/models/smart-jazz-5-epoch5-acc96.04.pth with accuracy: 96.04%
+Epoch 6/20:
+  Train Loss: 1.4987, Train Acc: 71.75%
+  Val Loss: 0.0685, Val Acc: 98.06%
+  Learning Rate: 0.000794
+  Best model saved to /root/github/riceleaf_disease_classification/train_model/output/models/smart-jazz-5-epoch6-acc98.06.pth with accuracy: 98.06%
+Epoch 7/20:
+  Train Loss: 1.5218, Train Acc: 70.73%
+  Val Loss: 0.0782, Val Acc: 97.98%
+  Learning Rate: 0.000727
+Epoch 8/20:
+  Train Loss: 1.4536, Train Acc: 71.09%
+  Val Loss: 0.0531, Val Acc: 98.90%
+  Learning Rate: 0.000655
+  Best model saved to /root/github/riceleaf_disease_classification/train_model/output/models/smart-jazz-5-epoch8-acc98.90.pth with accuracy: 98.90%
+Epoch 9/20:
+  Train Loss: 1.3098, Train Acc: 73.50%
+  Val Loss: 0.0608, Val Acc: 97.89%
+  Learning Rate: 0.000579
+Epoch 10/20:
+  Train Loss: 1.2440, Train Acc: 76.82%
+  Val Loss: 0.0622, Val Acc: 98.15%
+  Learning Rate: 0.000501
+Epoch 11/20:
+  Train Loss: 1.2658, Train Acc: 73.63%
+  Val Loss: 0.0791, Val Acc: 97.56%
+  Learning Rate: 0.000422
+Epoch 12/20:
+  Train Loss: 1.1763, Train Acc: 76.10%
+  Val Loss: 0.0669, Val Acc: 98.40%
+  Learning Rate: 0.000346
+Epoch 13/20:
+  Train Loss: 1.2152, Train Acc: 73.27%
+  Val Loss: 0.0424, Val Acc: 99.41%
+  Learning Rate: 0.000274
+  Best model saved to /root/github/riceleaf_disease_classification/train_model/output/models/smart-jazz-5-epoch13-acc99.41.pth with accuracy: 99.41%
+Epoch 14/20:
+  Train Loss: 1.1530, Train Acc: 75.68%
+  Val Loss: 0.0568, Val Acc: 98.57%
+  Learning Rate: 0.000207
+Epoch 15/20:
+  Train Loss: 1.1061, Train Acc: 77.05%
+  Val Loss: 0.0567, Val Acc: 99.07%
+  Learning Rate: 0.000147
+Epoch 16/20:
+  Train Loss: 1.1875, Train Acc: 73.59%
+  Val Loss: 0.0749, Val Acc: 98.74%
+  Learning Rate: 0.000096
+Epoch 17/20:
+  Train Loss: 1.1025, Train Acc: 76.44%
+  Val Loss: 0.0449, Val Acc: 99.24%
+  Learning Rate: 0.000055
+Epoch 18/20:
+  Train Loss: 1.1344, Train Acc: 74.75%
+  Val Loss: 0.0707, Val Acc: 98.48%
+  Learning Rate: 0.000025
+Epoch 19/20:
+  Train Loss: 1.0871, Train Acc: 75.99%
+  Val Loss: 0.0474, Val Acc: 99.16%
+  Learning Rate: 0.000007
+Epoch 20/20:
+  Train Loss: 1.0928, Train Acc: 76.86%
+  Val Loss: 0.0418, Val Acc: 99.49%
+  Learning Rate: 0.000001
+  Best model saved to /root/github/riceleaf_disease_classification/train_model/output/models/smart-jazz-5-epoch20-acc99.49.pth with accuracy: 99.49%
+
+Training completed!
+Best validation accuracy: 99.49%
+wandb: uploading history steps 18-19, summary, console lines 79-90
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▇▇▇██
+wandb: learning_rate ███▇▇▇▆▆▅▅▄▃▃▂▂▂▁▁▁▁
+wandb:     train_acc ▁▄▅▅▅▆▆▆▇█▇█▇▇█▇█▇██
+wandb:    train_loss █▅▅▄▄▃▃▃▂▂▂▁▂▁▁▁▁▁▁▁
+wandb:       val_acc ▁▅▅▄▆▇▇█▇▇▇▇█▇█▇█▇██
+wandb:      val_loss █▄▃▅▃▂▂▁▂▂▂▂▁▁▁▂▁▂▁▁
+wandb: 
+wandb: Run summary:
+wandb:         epoch 19
+wandb: learning_rate 0.0
+wandb:     train_acc 76.85811
+wandb:    train_loss 1.09278
+wandb:       val_acc 99.49452
+wandb:      val_loss 0.04182
+wandb: 
+wandb: 🚀 View run smart-jazz-5 at: https://wandb.ai/ttyn4519-individual/riceleaf-disease-classification/runs/8lqbz2y8
+wandb: ⭐️ View project at: https://wandb.ai/ttyn4519-individual/riceleaf-disease-classification
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./train_model/output/logs/wandb/run-20250710_233621-8lqbz2y8/logs

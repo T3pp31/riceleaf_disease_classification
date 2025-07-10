@@ -1,0 +1,12 @@
+
+<!doctype html>
+<title>Prediction Result</title>
+<h1>Prediction Result</h1>
+<p>Filename: {{ filename }}</p>
+<p>Prediction: {{ prediction }}</p>
+<img src="{{ url_for('uploaded_file', filename=filename) }}" width="300">
+
+<!-- トップページに戻るボタン -->
+<a href="/" class="inline-block mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+  トップページに戻る
+</a>
